@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Backgrounds -->
+    <color name="bg">#09090D</color>
+    <color name="surface">#111218</color>
+    <color name="card">#16171F</color>
+    <color name="divider">#1E1F29</color>
+
+    <!-- Brand -->
+    <color name="primary">#7B68EE</color>
+    <color name="primary_dark">#5A4DBF</color>
+    <color name="accent">#9D8DF1</color>
+
+    <!-- Text -->
+    <color name="text">#E8EAF6</color>
+    <color name="text_secondary">#7A7A8A</color>
+
+    <!-- Status -->
+    <color name="success">#4ADE80</color>
+
+    <!-- Misc -->
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>
