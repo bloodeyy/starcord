@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Five-pointed star centred in the 108×108 safe zone.
+    Outer radius ≈ 38dp, inner radius ≈ 16dp.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Subtle outer glow ring -->
+    <path
+        android:fillColor="#33FFFFFF"
+        android:pathData="
+            M54,11
+            L60.2,34.5
+            L84.7,34.5
+            L65.3,49.6
+            L71.5,73.1
+            L54,58.0
+            L36.5,73.1
+            L42.7,49.6
+            L23.3,34.5
+            L47.8,34.5 Z" />
+
+    <!-- Main bright star -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M54,17
+            L59.5,36.5
+            L80.5,36.5
+            L64.0,48.8
+            L69.5,68.3
+            L54,56.0
+            L38.5,68.3
+            L44.0,48.8
+            L27.5,36.5
+            L48.5,36.5 Z" />
+
+    <!-- Sparkle dot top-right -->
+    <path
+        android:fillColor="#CCFFFFFF"
+        android:pathData="M76,22 L77.5,26 L81.5,27.5 L77.5,29 L76,33 L74.5,29 L70.5,27.5 L74.5,26 Z" />
+
+    <!-- Sparkle dot bottom-left -->
+    <path
+        android:fillColor="#99FFFFFF"
+        android:pathData="M30,72 L31,75 L34,76 L31,77 L30,80 L29,77 L26,76 L29,75 Z" />
+
+</vector>
